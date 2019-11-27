@@ -22,7 +22,7 @@ $SLEEP $SLEEPSECONDS
 
 # check the result
 nmatch=`cat $OUTPUTFILE | grep -c "$tmp_file"`
-if [ $nmatch -eq 3 ]; then
+if [ $nmatch -eq 0 ]; then
 	   print_ok
 else
 	   print_ko
