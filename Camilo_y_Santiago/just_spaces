@@ -12,7 +12,7 @@ let tmp_exit=`echo $?`
 # wait a little bit
 $SLEEP $SLEEPSECONDS
 # check the result
-if [ $tmp_exit -eq 0 ]; then
+if [ $tmp_exit -eq 1]; then
        print_ok
           TESTS_PASSED=$((TESTS_PASSED + 1))
 else
