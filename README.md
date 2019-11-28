@@ -30,11 +30,10 @@ git clone https://github.com/Doouh/test_suite.git
 ---
 ## Configuration
 ---
-- In order to compile the function you must run the following line in your shell:
+- 
 ```
-gcc -Wall -Werror -Wextra -pedantic *.c *.h -o hsh
+Open the file config and update the variable SHELL with your shell.
 ```
-_Note_: there are two ways of using the command interpreter:
 ## Run
 ```
 Usage ./check_simple_shell.bash
