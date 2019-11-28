@@ -11,13 +11,16 @@
 - [Built With](#built-with)
 ---
 ## Authors 
+> This is a repository created for all students of cohort 10 of the city of Medellin, each team made their contributions and the list of all Authors is in the file below.
 ---
 * [See AUTHORS file](https://github.com/Doouh/test_suite/blob/cohort10/AUTHORS)
 ---
 ## Description
 > Repository created to add test cases that can be used by students in cohort 10 of Medellin, to test their Shell project.
+Each team uploaded approximately two test cases, which were separated into folders with the names of each team.
 ---
 ## Shell style guide
+> The scripts used to test Simple Shell, have a specific style format which can be consulted in the following link below.
 ---
 * [See webpage](https://google.github.io/styleguide/shell.xml)
 ---
@@ -29,15 +32,10 @@ git clone https://github.com/Doouh/test_suite.git
 ```
 ---
 ## Configuration
+> Open the file config and update the variable SHELL with your shell.
 ---
-- 
-```
-Open the file config and update the variable SHELL with your shell.
-```
 ## Run
-```
-Usage ./check_simple_shell.bash
-```
+> Usage ./check_simple_shell.bash
 ## Built With
 
 * [C](https://en.wikipedia.org/wiki/C_(programming_language))
