@@ -4,7 +4,7 @@
 
 command="/bin/cat /etc/passwd
 cat /etc/passwd
-/bin/cat /etc/paSswd
+/bin/cat /etc/paSswd"
 tmp_file="checker_tmp_file_$RANDOM"
 
 # clean up

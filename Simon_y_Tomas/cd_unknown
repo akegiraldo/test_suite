@@ -14,19 +14,15 @@ touch $tmp_file
 # send commands
 echo "$command" | $SHELL > $OUTPUTFILE 2> /dev/null &
 
-let tmp_exit=`echo $?`
-
 # wait a little bit
 $SLEEP $SLEEPSECONDS
 
 # check the result
-nmatch=`cat $OUTPUTFILE | grep -c "$tmp_file"`¬
+nmatch=`cat $OUTPUTFILE | grep -c "$tmp_file"`
 if [ $nmatch -eq 1 ]; then
 	   print_ok
-
 else
 	   print_ko
-
 fi
 
 # clean up
